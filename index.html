@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width,
+        indial-scale=1.0">
+        <title>Login & Signup to Antnosleep | Codehal</title>
+        <link rel="stylesheet" href="style.css">
+        <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    </head>
+
+    <body>
+      
+        <header>
+            <h2 class="logo">Logo</h2>
+            <nav class="navigation">
+                <a href="#">Trang chủ</a>
+                <a href="#">Lộ trình</a>
+                <a href="#">Bài viết</a>
+                <a href="#">Comment</a>
+                <button class="btnLogin-popup">Đăng nhập</button>
+            </nav>
+        </header>
+
+        <div class="wrapper">
+            <span class="icon-close"><i class='bx bx-x'></i></span>
+            <div class="form-box login">
+                <h2>Đăng nhập</h2>
+                <form acction="#">
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Mật khẩu</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">
+                        Ghi nhớ</label>
+                        <a href="#">Quên mật khẩu?</a>
+                    </div>
+                    <button type="submit" class="btn">Đăng nhập</button>
+                    <div class="login-register">
+                        <p>Bạn chưa có tài khoản?<a href="#"class="register-link"> Đăng kí</a></p>
+                    </div>
+                </form>
+            </div>
+
+            <div class="form-box register">
+                <h2>Đăng kí</h2>
+                <form acction="#">
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-user'></i></i></span>
+                        <input type="text" required>
+                        <label>Tên đăng nhập</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-envelope'></i></span>
+                        <input type="email" required>
+                        <label>Email</label>
+                    </div>
+                    <div class="input-box">
+                        <span class="icon"><i class='bx bxs-lock-alt'></i></span>
+                        <input type="password" required>
+                        <label>Mật khẩu</label>
+                    </div>
+                    <div class="remember-forgot">
+                        <label><input type="checkbox">Tôi đồng ý với các điều khoản & điều kiện</label>
+                    </div>
+                    <button type="submit" class="btn">Đăng kí</button>
+                    <div class="login-register">
+                        <p>Bạn đã có tài khoản?<a href="#"class="login-link"> Đăng nhập</a></p>
+                    </div>
+                </form>
+            </div>
+        </div>
+        <script src="script.js"></script>   
+    </body>
+</html>
